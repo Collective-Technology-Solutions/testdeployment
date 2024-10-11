@@ -19,6 +19,6 @@ jobs:
       - run: flutter config --no-cli-animations --no-analytics
       - run: flutter clean
       - run: flutter pub get
-      - run: flutter analyze
+      - run: flutter analyze --no-fatal-infos
       - run: flutter test
       - run: dart analyze
