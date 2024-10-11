@@ -1,0 +1,11 @@
+name: github_actions_test
+description: testing github actions to for Dart and Flutter actions
+version: 1.0.0
+
+environment:
+  sdk: ^3.26.0
+
+dependancies:
+
+dev_dependencies:
+  test: >2.0.0
