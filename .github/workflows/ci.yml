@@ -16,8 +16,8 @@ jobs:
       - uses: subosito/flutter-action@v1
         with:
           channel: "stable"
-      - run: dart analyze
       - run: flutter config --no-cli-animations --no-analytics
       - run: flutter pub get
       - run: flutter analyze
       - run: flutter test
+      - run: dart analyze
